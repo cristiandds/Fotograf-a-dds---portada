@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +6,41 @@
 }
 
 body{
+    font-family: 'Share Tech Mono';
     background-image: url(img/fondo.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    width: 150px;
+    border: 1px solid #000;
+    margin: 0 30px;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 18px;
 }
